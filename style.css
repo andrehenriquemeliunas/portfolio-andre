@@ -88,21 +88,21 @@ html{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color:   #3f1f9c ;
+    color:   #364261 ;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background:    #3f1f9c;
+    background:    #364261;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid    #3f1f9c;
+    border: 2px solid    #364261;
 }
 .home .home-content a:hover{
-    color:    #3f1f9c;
+    color:    white;
     background: none;
 }
 
@@ -205,18 +205,18 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background:    #3f1f9c;
+    background:    #364261;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid    #3f1f9c;
+    border: 2px solid    #364261;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color:    #3f1f9c;
+    color:    #364261;
     background: none;
 }
 .about .about-content .left img{
@@ -237,7 +237,7 @@ section .title::after{
 
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #0E1936;
+    background: #364261;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
