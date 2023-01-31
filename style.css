@@ -255,7 +255,7 @@ section .title::after{
 }
 .services .serv-content .card ion-icon{
     font-size: 70px;
-    color:    #364261;
+    color:#0E1936;
 }
 .services .serv-content .card:hover ion-icon{
     color: #fff;
@@ -349,7 +349,7 @@ section .title::after{
     color:    #364261;
 }
 .teams .carousel .card{
-    background: #222;
+    background: #364261;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
