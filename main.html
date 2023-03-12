@@ -153,7 +153,7 @@
                 <div class="column left">
                     <div class="text">Informações</div><br>
                     <p><b>Empresa:</b> <b>Cha2Desk Brasil</b> - Empresa especializada na gestão e automação inteligente da comunicação.<br><br>
-                        <b>Cargo:</b> Chatbot Developer Júnior - Desenvolvimento de chatbots e integrações API REST de acordo com a necessidade
+                        <b>Cargo:</b> Chatbot Developer Júnior N2 - Desenvolvimento de chatbots e integrações API REST de acordo com a necessidade
                         apresentada, utilizei tecnologias como JavaScript, Webhooks, entre outros<br><br>
                         <b>Período: </b> Janeiro/2022 - Atualmente <br><br>
                 </div>
@@ -162,7 +162,7 @@
                     <div class="text">Tecnologias Utilizadas</div>
                    <div class="bars">
                        <div class="info">
-                           <span>Chatbots</span>
+                           <span>Desenvolvimento de Chatbots</span>
                            <span>93%</span>
                        </div>
                        <div class="line html"></div>
@@ -281,24 +281,27 @@
             </div><!--column left-->
             <div class="column rigth">
                 <div class="text">Mensagem</div>
-                <form action="#">
+
+                <form action="">
                     <div class="fields">
                         <div class="field name">
-                            <input type="text" placeholder="Nome" required>
+                            <input type="text" class="name" id="name" placeholder="Nome" required>
                         </div>
+
                         <div class="field email">
-                            <input type="email" placeholder="Email" required>
+                            <input type="email" class="email" id="email" placeholder="Email" required>
                         </div>
                     </div>
                     <div class="field">
                         <div class="field textarea">
-                           <textarea  cols="30" rows="12" placeholder="Escrever...." required></textarea>
+                           <textarea id="text" class="text" cols="30" rows="12" placeholder="Escrever...." required></textarea>
                         </div>
                         <div class="button">
-                            <button type="submit">Enviar</button>
+                            <button><input type="submit" id="send" value="Enviar"></button>
                         </div>
                     </div>
                 </form>
+
             </div>
             </div>
         </div>

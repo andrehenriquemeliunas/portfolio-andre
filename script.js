@@ -47,3 +47,45 @@ $(document).ready(function(){
         }
     });
 });
+
+//Envia infos pela api após click no botao
+const btn = document.querySelector("#send")
+
+function requisicao(url, body){
+    alert("Obrigado! Informações enviadas com sucesso!")
+
+    let request = new XMLHttpRequest()
+    request.open("POST", url, true)
+    request.setRequestHeader("Content-type", "application/json")
+    request.send(JSON.stringify(body))
+
+    request.onload = function() { 
+        console.log(this.responseText)
+    }
+
+    return request.responseText
+}
+
+btn.addEventListener("click", function(e){
+
+    e.preventDefault()
+
+    let url = "https://eoz9r64awewsfzf.m.pipedream.net"
+
+    const inputName = document.querySelector("#name")
+    const name = inputName.value
+
+    const inputEmail = document.querySelector("#email")
+    const email = inputEmail.value
+
+    const inputText = document.querySelector("#text")
+    const text =   inputText.value
+
+    body = {
+        "name" : name,
+        "email" : email,
+        "message" : text
+    }
+
+    requisicao(url, body)
+})
